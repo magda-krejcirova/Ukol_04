@@ -6,6 +6,17 @@ import { Photo } from "./photo";
 import { Room_definition } from "./room";
 import { Storno_podminky } from "./storno_podminky";
 
+// const response = await fetch(url)
+// const data = await response.json()
+
+// const { name, address, city, rating, room, rezervace, parkovani, snidane, wellness, wifi, storno_do14dnu, storno_nedorazi  } = data
+// const { room_name, room_type, room_price } = room
+// const { cislo, pobyt_do, pobyt_od, hoste_dosp, hoste_deti, typ_stravovani, cena_pobyt, check_in_day, check_in_time, check_out_day, check_out_time} = rezervace
+// pak by se muselo cele telo komponenty BookingSummary prepsat na tento tvar
+// name={name}, address={address}, city ...
+// room_name={room_name}, room_type={room_type}
+//
+
 export const BookingSummary = () => {
     return (
       <div className="summary">
