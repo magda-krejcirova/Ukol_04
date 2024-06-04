@@ -1,0 +1,73 @@
+.summary {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .summaryHead {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .summaryPhoto {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 1rem;
+  }
+  
+  .summaryHeadProperty,
+  .summaryHeadRoom {
+    flex: 1;
+  }
+  
+  .summaryName {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .summaryAddress,
+  .summaryCity,
+  .summaryRating,
+  .summaryRoomType,
+  .summaryRoomPrice {
+    margin-bottom: 0.25rem;
+  }
+  
+  .summaryDetail,
+  .summaryServices,
+  .summaryCancal {
+    margin-bottom: 1rem;
+  }
+  
+  .detailHeading,
+  .servicesHeading,
+  .cancalHeading {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .summaryNumber,
+  .summaryDates,
+  .summaryGuests,
+  .summaryServices,
+  .summaryRoomTotal,
+  .summaryCheckIn,
+  .summaryCheckOut,
+  .summaryService {
+    margin-bottom: 0.25rem;
+  }
+  
+  .summaryCancelText p {
+    margin-bottom: 0.5rem;
+  }
